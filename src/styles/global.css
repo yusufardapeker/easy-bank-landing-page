@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+	/* Colors */
+	--dark-blue: hsl(233, 26%, 24%);
+	--lime-green: hsl(136, 65%, 51%);
+	--bright-cyan: hsl(192, 70%, 51%);
+
+	--grayish-blue: hsl(233, 8%, 62%);
+	--light-grayish-blue: hsl(220, 16%, 96%);
+	--very-light-gray: hsl(0, 0%, 98%);
+	--white: hsl(0, 0%, 100%);
+
+	/* Font Sizes */
+	--font-size-xxs: 12px;
+	--font-size-xs: 14px;
+	--font-size-s: 16px;
+	--font-size-m: 18px;
+	--font-size-l: 20px;
+	--font-size-xl: 24px;
+	--font-size-xxl: 32px;
+	--font-size-xxxl: 36px;
+
+	/* Font Weights */
+	--font-weight-xs: 300;
+	--font-weight-s: 400;
+	--font-weight-m: 500;
+
+	/* Gaps */
+	--gap-xxxs: 4px;
+	--gap-xxs: 8px;
+	--gap-xs: 12px;
+	--gap-s: 14px;
+	--gap-m: 16px;
+	--gap-l: 20px;
+	--gap-xl: 24px;
+	--gap-xxl: 32px;
+
+	/* Border Radius */
+	--button-radius: 9999px;
+	--image-radius: 6px;
+	--hamburger-menu-radius: 4px;
+}
+
+body {
+	font-family: "Public Sans", sans-serif; /* 300, 400, 700 */
+	font-size: var(--font-size-m);
+	text-align: center;
+}
+
+.container {
+	max-width: 1124px;
+	width: 88%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1,
+h2 {
+	color: var(--dark-blue);
+	font-weight: var(--font-weight-s);
+	margin-bottom: var(--gap-s);
+	font-size: var(--font-size-xxxl);
+}
+
+h3,
+h4 {
+	color: var(--dark-blue);
+	font-weight: var(--font-weight-m);
+	margin-bottom: var(--gap-s);
+	font-size: var(--font-size-l);
+}
+
+p {
+	color: var(--grayish-blue);
+	font-size: var(--font-size-xs);
+	line-height: 1.5;
+	font-weight: var(--font-weight-m);
+}
+
+@media (min-width: 1440px) {
+	body {
+		text-align: left;
+	}
+
+	#hero,
+	#features,
+	#articles {
+		height: 680px;
+	}
+
+	p {
+		font-size: var(--font-size-s);
+	}
+}

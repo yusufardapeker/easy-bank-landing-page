@@ -1,0 +1,20 @@
+button {
+	background: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
+	color: var(--very-light-gray);
+	padding: var(--gap-s) var(--gap-xxl);
+	border-radius: var(--button-radius);
+	font-family: inherit;
+	font-size: var(--font-size-xs);
+	font-weight: var(--font-weight-m);
+	transition: opacity 300ms;
+
+	&:hover {
+		opacity: 0.7;
+	}
+}
+
+@media (min-width: 1440px) {
+	button {
+		font-size: var(--font-size-m);
+	}
+}
