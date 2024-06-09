@@ -1,8 +1,11 @@
-# React + Vite
+# Frontend Mentor - Easybank landing page solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN).
 
-Currently, two official plugins are available:
+### Built with
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- SASS
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+I don't have the figma file so it is not pixel perfect. I have tried to make similar as same as possible. The website is responsive only 1440px and 375px screen sizes. I'll be glad if you give me suggestion about mistakes, lackings and best practices and how can I fix it.
