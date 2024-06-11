@@ -2,7 +2,7 @@
 
 This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN).
 
-[The Website](https://main--easy-bank-5039.netlify.app/)
+[The Website](https://main--easy-bank5039.netlify.app/)
 
 ### Built with
 
