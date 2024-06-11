@@ -2,7 +2,7 @@
 	background-color: var(--light-grayish-blue);
 	padding: calc(var(--gap-xxl) * 2) var(--gap-xxl);
 	position: relative;
-	z-index: 2;
+	z-index: -2;
 
 	.card-head {
 		margin-bottom: calc(var(--gap-xxl) * 2);

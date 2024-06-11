@@ -2,15 +2,24 @@
 	padding-bottom: calc(var(--gap-xxl) * 3);
 
 	// Image Content
-	.bg-intro {
+	.bg-intro-mobile {
 		position: absolute;
-		z-index: 1;
+		z-index: -3;
 		top: 0;
+		left: 0;
+	}
+
+	.bg-intro-desktop {
+		position: absolute;
+		z-index: -3;
+		top: -160px;
+		right: -460px;
+		display: none;
 	}
 
 	.bg-mockups {
 		position: absolute;
-		z-index: 3;
+		z-index: -1;
 		top: -60px;
 		padding: 0px var(--gap-s);
 	}
@@ -43,15 +52,17 @@
 			}
 		}
 
-		.bg-intro {
-			top: -160px;
-			right: -460px;
+		.bg-intro-mobile {
+			display: none;
+		}
+
+		.bg-intro-desktop {
+			display: unset;
 		}
 
 		.bg-mockups {
-			padding: unset;
 			top: -22px;
-			right: -130px;
+			left: 784px;
 		}
 	}
 }

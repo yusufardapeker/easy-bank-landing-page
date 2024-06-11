@@ -46,6 +46,7 @@ body {
 	font-family: "Public Sans", sans-serif; /* 300, 400, 700 */
 	font-size: var(--font-size-m);
 	text-align: center;
+	position: relative;
 }
 
 .container {
